@@ -8,7 +8,7 @@ This program allows me to transform a static SVG image into a javascript functio
 
 For my project X I had to simplify the creation process as much as possible. This program allows me to transform my SVG creations into a Javascript function that can easily be modified by the user using my npm plugin. This is a python program that retrieves SVG image data and integrates it into a javascript function by adding customizable elements and dimensions that can easily be integrated into a project.  
 
-![Example1](./documentation/example.png)
+![Example1](./documentation/example1.png)
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ git clone https://github.com/HaDock404/script-plugin-hieroglyphs.git
 cd script-plugin-hieroglyphs
 pip install -r ./packages/requirements.txt
 ```  
-
+ 
 ## Lauch Application  
 
 Put SVG files in SVG folder and do:  
