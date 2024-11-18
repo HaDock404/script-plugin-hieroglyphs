@@ -1,4 +1,5 @@
 import os
+import re
 
 # Répertoire des fichiers SVG et de sortie
 INPUT_DIR = "SVG"
@@ -7,11 +8,12 @@ OUTPUT_DIR = "JS"
 
 # Fonction pour générer un composant React à partir d'un fichier SVG
 def generate_react_component(svg_content, component_name):
-    # Remplacement des attributs de largeur et de hauteur
-    svg_content = svg_content.replace(
-        '<svg ',
-        '<svg style={{width: "auto", height: "100%"}} ',
-        1)
+    svg_content = re.sub(
+        r'<svg[^>]*\bwidth="[^"]*"\s*height="[^"]*"',
+        '<svg width="auto" height="100%"',
+        svg_content,
+        count=1  # Limite à un remplacement
+    )
     svg_content = svg_content.replace('fill="#656461"', 'fill={color}')
     svg_content = svg_content.replace('clip-path', 'clipPath')
     svg_content = svg_content.replace('fill-rule', 'fillRule')
