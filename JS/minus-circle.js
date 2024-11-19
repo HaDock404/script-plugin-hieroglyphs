@@ -15,6 +15,6 @@ function MinusCircle({ color = '#1B1B1B' }) {
     );
 }
 
-MinusCircle.metadata = { tags: ["test", "test2"] };
+MinusCircle.metadata = { tags: ["-", "substraction", "difference", "mathematics", "arithmetic", "calculator", "round", "technology & development", "finances", "system", "minus", "circle", "dash"] };
 
 export default MinusCircle;

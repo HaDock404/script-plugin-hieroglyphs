@@ -15,6 +15,6 @@ function ArrowCircleBendDoubleLeftDown({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowCircleBendDoubleLeftDown.metadata = { tags: ["test", "test2"] };
+ArrowCircleBendDoubleLeftDown.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "circle", "bend", "double", "down", "left"] };
 
 export default ArrowCircleBendDoubleLeftDown;

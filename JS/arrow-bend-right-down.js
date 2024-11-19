@@ -19,6 +19,6 @@ function ArrowBendRightDown({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowBendRightDown.metadata = { tags: ["test", "test2"] };
+ArrowBendRightDown.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "bend", "down", "right"] };
 
 export default ArrowBendRightDown;

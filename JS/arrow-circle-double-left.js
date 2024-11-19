@@ -15,6 +15,6 @@ function ArrowCircleDoubleLeft({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowCircleDoubleLeft.metadata = { tags: ["test", "test2"] };
+ArrowCircleDoubleLeft.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "circle", "double", "left"] };
 
 export default ArrowCircleDoubleLeft;

@@ -12,6 +12,6 @@ function ArrowBendUpLeft({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowBendUpLeft.metadata = { tags: ["test", "test2"] };
+ArrowBendUpLeft.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "bend", "up", "left"] };
 
 export default ArrowBendUpLeft;

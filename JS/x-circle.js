@@ -15,6 +15,6 @@ function XCircle({ color = '#1B1B1B' }) {
     );
 }
 
-XCircle.metadata = { tags: ["test", "test2"] };
+XCircle.metadata = { tags: ["x", "multiplication", "close", "closed", "cancelled", "dismissed", "round", "technology & development", "finances", "system", "circle", "dash"] };
 
 export default XCircle;

@@ -15,6 +15,6 @@ function ArrowCircleDoubleDown({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowCircleDoubleDown.metadata = { tags: ["test", "test2"] };
+ArrowCircleDoubleDown.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "circle", "double", "down"] };
 
 export default ArrowCircleDoubleDown;

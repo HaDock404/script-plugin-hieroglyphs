@@ -15,6 +15,6 @@ function ArrowCircleRight({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowCircleRight.metadata = { tags: ["test", "test2"] };
+ArrowCircleRight.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "circle", "right"] };
 
 export default ArrowCircleRight;

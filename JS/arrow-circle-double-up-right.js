@@ -15,6 +15,6 @@ function ArrowCircleDoubleUpRight({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowCircleDoubleUpRight.metadata = { tags: ["test", "test2"] };
+ArrowCircleDoubleUpRight.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "circle", "double", "up", "right"] };
 
 export default ArrowCircleDoubleUpRight;

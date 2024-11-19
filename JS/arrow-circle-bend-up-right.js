@@ -15,6 +15,6 @@ function ArrowCircleBendUpRight({ color = '#1B1B1B' }) {
     );
 }
 
-ArrowCircleBendUpRight.metadata = { tags: ["test", "test2"] };
+ArrowCircleBendUpRight.metadata = { tags: ["directional", "pointer", "pointing", "arrowhead", "arrows", "arrow", "circle", "bend", "up", "right"] };
 
 export default ArrowCircleBendUpRight;

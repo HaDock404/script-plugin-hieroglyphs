@@ -15,6 +15,6 @@ function PlusCircle({ color = '#1B1B1B' }) {
     );
 }
 
-PlusCircle.metadata = { tags: ["test", "test2"] };
+PlusCircle.metadata = { tags: ["+", "addition", "sum", "mathematics", "arithmetic", "calculator", "round", "technology & development", "finances", "system", "plus", "circle", "dash"] };
 
 export default PlusCircle;
